@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Fichiers système et éditeurs
+.DS_Store
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Résultats générés par TensorFlow
+events.out.tfevents.*
+checkpoint
+*.ckpt*
+*.data-?????-of-?????
+*.index
+*.meta
